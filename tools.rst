@@ -8,6 +8,8 @@ Create Getis Image
 ^^^^^^^^^^^^^^^^^^
 Calculates Getis-Ord statistics for every band of the input file, with a configurable window size.
 
+.. image:: images/getis.png
+
 Input
 ......
 
@@ -27,6 +29,8 @@ Image with each band containing the Getis image for the corresponding band in th
 Create CV Image
 ^^^^^^^^^^^^^^^
 Calculates the Coefficient of Variation in a moving window across the image, for each band of the image. The moving window size is configurable.
+
+.. image:: images/cv.png
 
 Input
 .....
@@ -51,6 +55,9 @@ Select NeXTMap tiles
 
 Selects the DEM tiles from the NeXTMap project (NEODC, 2009) which are needed to cover an image. Can take an input from either a georeferenced image, a set of corner co-ordinates for an image, or the bottom left co-ordinates and length/width of an image.
 
+.. image:: images/nextmap.png
+
+
 Input
 .....
 
@@ -66,6 +73,9 @@ Calculate Surface Area
 
 Calculates an estimate of the 3D surface area of a DEM using the Jenness (2004) method.
 
+.. image:: images/sa.png
+
+
 Input
 .....
 
@@ -80,6 +90,9 @@ Calculate Surface Area Ratio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Calculates the ratio of 3D surface area to planimetric surface area, which is useful for estimating the topographic roughness of an area.
+
+.. image:: images/sa_ratio.png
+
 
 Input
 .....
@@ -99,6 +112,9 @@ ROI Percentile Threshold
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Performs similarly to the Band Threshold to ROI function in ENVI, but allows the threshold to be specified as a percentage to be taken from the top or bottom of the range of values. Allows constraints (such as ensuring the resulting values are above zero) to be applied to the pixels selected.
+
+.. image:: images/roi_perc.png
+
 
 Input
 .....
@@ -121,6 +137,9 @@ Shrink ROIs
 ^^^^^^^^^^^
 Shrinks the selected ROIs by one pixel around their perimeter. NB: This routine creates new ROIs and does not overwrite the old ROIs.
 
+.. image:: images/roi_shrink.png
+
+
 Input
 .....
 
@@ -134,6 +153,9 @@ The same number of ROIs selected as input, each shrunk by one pixel around their
 Translate ROIs
 ^^^^^^^^^^^^^^
 Translates the selected ROIs by the given X and Y distances. NB: This routine creates new ROIs and does not overwrite the old ROIs.
+
+.. image:: images/roi_translate.png
+
 
 Input
 .....
@@ -154,6 +176,9 @@ The same number of ROIs selected as input, each translated by the distances give
 ROI Statistics
 ^^^^^^^^^^^^^^
 Calculates statistics such as sum, mean and max on the data covered by a ROI.
+
+.. image:: images/roi_stats.png
+
 
 Input
 .....
@@ -218,6 +243,9 @@ Creates an image which can be used as a GLT file for the atmospheric correction 
 	n n n n n n n n n n ... n
 
 The parameters allow the ordering of numbers in the X and Y directions to be reversed (ie. n ... 5 4 3 2 1).
+
+.. image:: images/glt.png
+
 
 Parameters
 ..........
