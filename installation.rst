@@ -3,9 +3,7 @@ Installation
 
 System Requirements
 -------------------
-A computer running any version of ENVI.
-
-**Beware:** RTWTools has only been tested on ENVI 4.6.1 and ENVI 4.7. It may or may not work on other versions.
+A computer running any version of ENVI. (**Note:** RTWTools will only work in the 'Classic' mode of ENVI 5.0 or greater.)
 
 
 Installation

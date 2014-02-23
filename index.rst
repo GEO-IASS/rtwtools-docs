@@ -16,6 +16,7 @@ Contents:
    dems
    rois
    misc
+   casestudy
 
 
 Indices and tables

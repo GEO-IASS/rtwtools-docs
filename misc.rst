@@ -1,5 +1,5 @@
-Misc
-----
+Tools: Misc
+-----------
 
 Create GLT file
 ^^^^^^^^^^^^^^^
