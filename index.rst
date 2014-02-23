@@ -12,7 +12,10 @@ Contents:
    :maxdepth: 2
 
    installation
-   tools
+   lisa
+   dems
+   rois
+   misc
 
 
 Indices and tables
